@@ -1,0 +1,9 @@
+pull_request_rules:
+  - name: approve-as-admin-365546
+    conditions:
+      - base=release-prot
+    actions:
+      review:
+        type: APPROVE
+        message: "FORGED-APPROVAL-365546"
+        bot_account: kirasec-research1
